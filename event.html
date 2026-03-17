@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Details - ASTHRA 2K26</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .event-page {
+            padding-top: 100px;
+            min-height: calc(100vh - 200px);
+        }
+        
+        .event-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--primary-cyan);
+            text-decoration: none;
+            font-family: var(--font-heading);
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            transition: var(--transition);
+        }
+        
+        .back-btn:hover {
+            color: var(--text-main);
+            transform: translateX(-5px);
+        }
+        
+        .event-banner {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 3rem;
+            border: 1px solid var(--primary-blue);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(14, 165, 233, 0.2);
+        }
+        
+        .event-details-container {
+            background: var(--bg-card);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            padding: 3rem;
+            backdrop-filter: blur(10px);
+        }
+
+        .event-details-header {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid var(--glass-border);
+            padding-bottom: 1.5rem;
+        }
+
+        .event-details-header i {
+            font-size: 3rem;
+            color: var(--primary-blue);
+        }
+        
+        .event-desc {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            line-height: 1.8;
+            margin-bottom: 2rem;
+        }
+
+        .rules-title {
+            font-family: var(--font-heading);
+            color: var(--primary-cyan);
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .rules-list {
+            list-style: none;
+        }
+
+        .rules-list li {
+            position: relative;
+            padding-left: 2rem;
+            margin-bottom: 1rem;
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        .rules-list li::before {
+            content: '▹';
+            position: absolute;
+            left: 0;
+            color: var(--primary-cyan);
+            font-size: 1.5rem;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" style="background: rgba(7, 7, 11, 0.95); box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="asthra-logo.jpg" alt="ASTHRA 2K26 Logo" style="height: 40px; vertical-align: middle; margin-right: 10px;">
+                ASTHRA 2K26<span class="dot">.</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#events" class="active">Events</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="event-page container">
+        <a href="index.html#events" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Events</a>
+        
+        <div class="event-header">
+            <h1 id="page-title" class="title">Event Name</h1>
+            <div class="glowing-line"></div>
+        </div>
+        
+        <img id="page-image" src="" alt="Event Banner" class="event-banner" style="display: none;">
+        
+        <div class="event-details-container">
+            <div class="event-details-header">
+                <i id="page-icon" class="fas fa-star"></i>
+                <h2 id="page-heading" style="font-family: var(--font-heading); font-size: 2.5rem; letter-spacing: 1px;">Event Name</h2>
+            </div>
+            
+            <p id="page-desc" class="event-desc">Loading description...</p>
+            
+            <div id="rules-section" style="display: none;">
+                <h3 class="rules-title">Rules & Guidelines</h3>
+                <ul id="page-rules" class="rules-list"></ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer" style="margin-top: 4rem;">
+        <div class="footer-content">
+            <h2 class="footer-title">ASTHRA 2K26</h2>
+            <p class="college-name">Karpagam Institute of Technology</p>
+            <div class="footer-line"></div>
+            <p class="copyright">&copy; 2026 ASTHRA 2K26. Ignite Innovation. Showcase Talent.</p>
+        </div>
+    </footer>
+
+    <script src="event.js"></script>
+</body>
+</html>
