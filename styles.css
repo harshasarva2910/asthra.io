@@ -71,6 +71,7 @@ body::before {
     margin-bottom: 1rem;
     background: linear-gradient(to right, var(--text-main), var(--text-muted));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -97,7 +98,7 @@ body::before {
 }
 
 .nav-container {
-    max-width: 1200px;
+    max-width: 1400px; /* Increased to allow more room for college name */
     margin: 0 auto;
     padding: 0 2rem;
     display: flex;
@@ -105,23 +106,36 @@ body::before {
     align-items: center;
 }
 
-.logo {
-    font-family: var(--font-heading);
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: var(--text-main);
-    text-decoration: none;
-    letter-spacing: 1px;
+.logo img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
 }
 
-.logo .dot {
-    color: var(--primary-cyan);
+.college-brand {
+    font-family: var(--font-heading);
+    color: var(--text-main);
+    text-align: right;
+}
+
+.college-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, var(--primary-cyan), #fff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .nav-links {
     display: flex;
     gap: 2.5rem;
     list-style: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .nav-links a {
@@ -750,6 +764,10 @@ body::before {
         display: block;
     }
 
+    .college-brand {
+        display: none;
+    }
+
     .nav-links {
         position: absolute;
         top: 100%;
@@ -761,7 +779,7 @@ body::before {
         align-items: center;
         padding: 2rem 0;
         gap: 1.5rem;
-        transform: translateY(-10px);
+        transform: translate(0, -10px); /* Reset translateX for mobile */
         opacity: 0;
         visibility: hidden;
         transition: var(--transition);
