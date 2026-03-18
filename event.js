@@ -141,7 +141,7 @@ const eventDetails = {
         desc: 'Soothe the crowd and impress the judges with your vocal prowess in solo or group performances. All musical genres are welcome as you hit the high notes on the big stage.',
         rules: [],
         icon: 'fa-music',
-        image: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80&w=1200'
+        image: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&q=80&w=1200'
     },
     'Instrumentation': {
         desc: 'A pure musical showcase for instrumentalists to perform captivating, intricate melodies. No vocals allowed—just you, your instrument, and the magic of raw, acoustic or electric music.',
