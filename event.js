@@ -16,7 +16,7 @@ const eventDetails = {
             'The poster must not represent any particular individual, organization, or brand name.'
         ],
         icon: 'fa-palette',
-        image: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&q=80&w=1200'
+        image: 'images/poster_presentation_asthra_1773774906463.png'
     },
     'Byte Blitz': {
         desc: 'Participants develop and use cyber security tools to promote awareness of ethical and illegal hacking.',
@@ -55,7 +55,7 @@ const eventDetails = {
             'Participants are asked to display their model and explain the concepts and principles.'
         ],
         icon: 'fa-lightbulb',
-        image: 'https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?auto=format&fit=crop&q=80&w=1200'
+        image: 'images/project_expo_asthra_1773774926642.png'
     },
     'UI Prototype Modelling': {
         desc: 'To design a functional and user-friendly web page within a given domain.',
@@ -65,7 +65,7 @@ const eventDetails = {
             'Make navigation trouble-free, user friendly, ensuring quick tracking of information.'
         ],
         icon: 'fa-object-group',
-        image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=1200'
+        image: 'images/ui_prototype_asthra_1773774945547.png'
     },
     'Inno Pitch': {
         desc: 'Pitch your innovative startup ideas or unique solutions to a panel of expert judges. Demonstrate the real-world impact, feasibility, and market potential of your concept over a short presentation.',
@@ -75,7 +75,7 @@ const eventDetails = {
             '30 min preparation time before pitching.'
         ],
         icon: 'fa-bullhorn',
-        image: 'https://images.unsplash.com/photo-1542626991-cbc4e32524cc?auto=format&fit=crop&q=80&w=1200'
+        image: 'images/inno_pitch_asthra_1773774965032.png'
     },
     'Glitch Groove': {
         desc: 'A dynamic video editing challenge where participants showcase their cutting-edge skills. Create a visually stunning, perfectly synced masterpiece within the given timeframe.',
@@ -87,13 +87,13 @@ const eventDetails = {
         desc: 'Tell a compelling story through the lens of a camera in just 3 to 5 minutes. Let your creativity shine as you write, direct, and edit your very own short film.',
         rules: [],
         icon: 'fa-film',
-        image: 'https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&q=80&w=1200'
+        image: 'images/micro_film_asthra_1773774984091.png'
     },
     'Meme Matrix': {
         desc: 'Unleash your humor and creativity in our meme-making contest! Participants will generate hilarious, culturally relevant, and highly shareable memes based on given prompts.',
         rules: [],
         icon: 'fa-face-laugh-squint',
-        image: 'https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&q=80&w=1200'
+        image: 'images/meme_matrix_asthra_1773775012115.png'
     },
     'Logo Maestro': {
         desc: 'Express brand essence and identity by designing a unique, memorable sequence of logos. Show off your vector art skills and out-of-the-box creative thinking.',
@@ -105,55 +105,55 @@ const eventDetails = {
         desc: 'A nature-focused photography contest for individuals with a keen eye for ecological beauty. Capture the essence of the surrounding environment and showcase your photographic talent.',
         rules: [],
         icon: 'fa-camera',
-        image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1200'
+        image: 'images/eco_snap_asthra_1773775029239.png'
     },
     'Tech Charades': {
         desc: 'A fun and interactive game of dumb charades with a special technical twist. Team members must act out complex tech terminologies without speaking while their team guesses.',
         rules: [],
         icon: 'fa-masks-theater',
-        image: 'https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&q=80&w=1200'
+        image: 'images/tech_charades_asthra_1773775050394.png'
     },
     'Artistry': {
         desc: 'An open canvas for traditional art forms like painting, sketching, and mehendi design. Let your imagination run wild and splash colors to reflect your inner artist.',
         rules: [],
         icon: 'fa-brush',
-        image: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&q=80&w=1200'
+        image: 'images/artistry_asthra_1773775072154.png'
     },
     'Digital Dynamo': {
         desc: 'A spontaneous digital art and content creation challenge. Participants will use digital tools to quickly generate impressive artwork based on an abstract, surprise theme.',
         rules: [],
         icon: 'fa-bolt',
-        image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=1200'
+        image: 'images/digital_dynamo_asthra_1773775090836.png'
     },
     'Treasure Hunt': {
         desc: 'An exhilarating campus-wide race to solve cryptic clues and navigate secret challenges. Work together with your team to unlock mysteries and find the ultimate hidden prize.',
         rules: [],
         icon: 'fa-map-location-dot',
-        image: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&q=80&w=1200'
+        image: 'images/treasure_hunt_asthra_1773775126291.png'
     },
     'Group Dance': {
         desc: 'Bring your energy and synchronized moves to the main stage in this thrilling group dance competition. Dazzle the audience with your choreography, expressions, and rhythm.',
         rules: [],
         icon: 'fa-users-viewfinder',
-        image: 'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&q=80&w=1200'
+        image: 'https://images.unsplash.com/photo-1547153760-18fc86c4a560?auto=format&fit=crop&q=80&w=1200'
     },
     'Singing': {
         desc: 'Soothe the crowd and impress the judges with your vocal prowess in solo or group performances. All musical genres are welcome as you hit the high notes on the big stage.',
         rules: [],
         icon: 'fa-music',
-        image: 'https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&q=80&w=1200'
+        image: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80&w=1200'
     },
     'Instrumentation': {
         desc: 'A pure musical showcase for instrumentalists to perform captivating, intricate melodies. No vocals allowed—just you, your instrument, and the magic of raw, acoustic or electric music.',
         rules: [],
         icon: 'fa-guitar',
-        image: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=1200'
+        image: 'images/instrumentation_asthra_1773775184176.png'
     },
     'Fashion Runway': {
         desc: 'Walk the ramp with confidence and show off your unique style in our grand fashion pageant. Dress according to the themes and completely own the runway with your attitude and grace.',
         rules: [],
         icon: 'fa-shoe-prints',
-        image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&q=80&w=1200'
+        image: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&q=80&w=1200'
     },
     'Talentia': {
         desc: 'An open-stage opportunity for any unique, unusual, or extraordinary talents. Whether it\'s stand-up comedy, magic tricks, or beatboxing, this grand stage is yours to conquer.',
