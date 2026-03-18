@@ -188,7 +188,7 @@ body::before {
     justify-content: center;
     position: relative;
     overflow: hidden;
-    padding-top: 80px; /* Offset for fixed navbar */
+    padding-top: 100px; /* Offset for fixed navbar */
 }
 
 .circuit-grid {
