@@ -109,7 +109,7 @@ body::before {
 }
 
 .logo img {
-    height: 100px;
+    height: 50px;
     width: auto;
     object-fit: contain;
 }
@@ -209,6 +209,30 @@ body::before {
     text-align: center;
     position: relative;
     z-index: 10;
+}
+
+.hero-kit-branding {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero-kit-logo {
+    height: 100px;
+    width: auto;
+    filter: drop-shadow(0 0 15px rgba(100, 255, 218, 0.3));
+}
+
+.hero-college-name {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-main);
+    opacity: 0.9;
 }
 
 .glitch-text {
