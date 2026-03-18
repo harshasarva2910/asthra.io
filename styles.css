@@ -220,19 +220,20 @@ body::before {
 }
 
 .hero-kit-logo {
-    height: 100px;
+    height: 150px;
     width: auto;
     filter: drop-shadow(0 0 15px rgba(100, 255, 218, 0.3));
 }
 
 .hero-college-name {
     font-family: var(--font-heading);
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: var(--text-main);
-    opacity: 0.9;
+    opacity: 1;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
 }
 
 .glitch-text {
