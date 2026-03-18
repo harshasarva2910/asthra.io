@@ -65,7 +65,7 @@ const eventDetails = {
             'Make navigation trouble-free, user friendly, ensuring quick tracking of information.'
         ],
         icon: 'fa-object-group',
-        image: 'images/ui_prototype_premium_banner_1773810526604.png'
+        image: 'images/ui_prototype_v2_premium_banner.png'
     },
     'Inno Pitch': {
         desc: 'Pitch your innovative startup ideas or unique solutions to a panel of expert judges. Demonstrate the real-world impact, feasibility, and market potential of your concept over a short presentation.',
