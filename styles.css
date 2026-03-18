@@ -213,18 +213,19 @@ body::before {
 }
 
 .hero-kit-branding {
+    margin-top: 2rem; /* Added margin to push it down further */
     margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .hero-kit-logo {
-    height: 180px; /* Increased height */
+    height: 160px; /* Slightly reduced height to fit better but kept broad */
     width: auto;
     filter: brightness(0) invert(1) drop-shadow(0 0 15px rgba(255, 255, 255, 0.2));
-    transform: scaleX(1.2); /* Make it broader/wider */
+    transform: scaleX(1.5); /* Made it even wider as requested */
 }
 
 .hero-college-name {
