@@ -16,7 +16,7 @@ const eventDetails = {
             'The poster must not represent any particular individual, organization, or brand name.'
         ],
         icon: 'fa-palette',
-        image: 'images/poster_presentation_asthra_1773774906463.png'
+        image: 'images/poster_design_premium_banner_1773810543057.png'
     },
     'Byte Blitz': {
         desc: 'Participants develop and use cyber security tools to promote awareness of ethical and illegal hacking.',
@@ -55,7 +55,7 @@ const eventDetails = {
             'Participants are asked to display their model and explain the concepts and principles.'
         ],
         icon: 'fa-lightbulb',
-        image: 'images/project_expo_asthra_1773774926642.png'
+        image: 'images/project_expo_premium_banner_1773810512145.png'
     },
     'UI Prototype Modelling': {
         desc: 'To design a functional and user-friendly web page within a given domain.',
@@ -65,7 +65,7 @@ const eventDetails = {
             'Make navigation trouble-free, user friendly, ensuring quick tracking of information.'
         ],
         icon: 'fa-object-group',
-        image: 'images/ui_prototype_asthra_1773774945547.png'
+        image: 'images/ui_prototype_premium_banner_1773810526604.png'
     },
     'Inno Pitch': {
         desc: 'Pitch your innovative startup ideas or unique solutions to a panel of expert judges. Demonstrate the real-world impact, feasibility, and market potential of your concept over a short presentation.',
@@ -75,7 +75,7 @@ const eventDetails = {
             '30 min preparation time before pitching.'
         ],
         icon: 'fa-bullhorn',
-        image: 'images/inno_pitch_asthra_1773774965032.png'
+        image: 'images/inno_pitch_premium_banner_1773810496646.png'
     },
     'Glitch Groove': {
         desc: 'A dynamic video editing challenge where participants showcase their cutting-edge skills. Create a visually stunning, perfectly synced masterpiece within the given timeframe.',
