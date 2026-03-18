@@ -135,25 +135,25 @@ const eventDetails = {
         desc: 'Bring your energy and synchronized moves to the main stage in this thrilling group dance competition. Dazzle the audience with your choreography, expressions, and rhythm.',
         rules: [],
         icon: 'fa-users-viewfinder',
-        image: 'https://images.unsplash.com/photo-1547153760-18fc86c4a560?auto=format&fit=crop&q=80&w=1200'
+        image: 'images/group_dance_premium_v2_1773814008843.png'
     },
     'Singing': {
         desc: 'Soothe the crowd and impress the judges with your vocal prowess in solo or group performances. All musical genres are welcome as you hit the high notes on the big stage.',
         rules: [],
         icon: 'fa-music',
-        image: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&q=80&w=1200'
+        image: 'images/singing_premium_v2_stage_1773814039491.png'
     },
     'Instrumentation': {
         desc: 'A pure musical showcase for instrumentalists to perform captivating, intricate melodies. No vocals allowed—just you, your instrument, and the magic of raw, acoustic or electric music.',
         rules: [],
         icon: 'fa-guitar',
-        image: 'images/instrumentation_asthra_1773775184176.png'
+        image: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&q=80&w=1200'
     },
     'Fashion Runway': {
         desc: 'Walk the ramp with confidence and show off your unique style in our grand fashion pageant. Dress according to the themes and completely own the runway with your attitude and grace.',
         rules: [],
         icon: 'fa-shoe-prints',
-        image: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&q=80&w=1200'
+        image: 'images/fashion_runway_premium_v2_1773814022975.png'
     },
     'Talentia': {
         desc: 'An open-stage opportunity for any unique, unusual, or extraordinary talents. Whether it\'s stand-up comedy, magic tricks, or beatboxing, this grand stage is yours to conquer.',
