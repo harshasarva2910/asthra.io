@@ -179,7 +179,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const data = eventDetails[eventName];
 
     // Populate Page Elements
-    document.title = `${eventName} - ASTHRA`;
+    document.title = `${eventName} - KITASTHRA`;
     document.getElementById('page-title').innerText = eventName;
     document.getElementById('page-heading').innerText = eventName;
     

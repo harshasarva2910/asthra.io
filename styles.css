@@ -221,9 +221,10 @@ body::before {
 }
 
 .hero-kit-logo {
-    height: 150px;
+    height: 180px; /* Increased height */
     width: auto;
     filter: brightness(0) invert(1) drop-shadow(0 0 15px rgba(255, 255, 255, 0.2));
+    transform: scaleX(1.2); /* Make it broader/wider */
 }
 
 .hero-college-name {
