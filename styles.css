@@ -189,7 +189,7 @@ body::before {
     justify-content: center;
     position: relative;
     overflow: hidden;
-    padding-top: 140px; /* Offset for fixed navbar + extra space */
+    padding-top: 100px; /* Reduced to bring logo higher */
     padding-bottom: 60px;
 }
 
@@ -215,7 +215,7 @@ body::before {
 }
 
 .hero-kit-branding {
-    margin-top: 0.5rem; /* Added margin to push it down further */
+    margin-top: -2rem; /* Removed top margin to lift the white logo */
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
@@ -261,6 +261,14 @@ body::before {
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 1.0rem;
+}
+
+.subtitles {
+    font-family: var(--font-body);
+    font-size: 1.1rem;
+    color: var(--text-main);
+    letter-spacing: 1px;
+    margin-bottom: 2rem; /* Adds space before tagline */
 }
 
 .tagline {
