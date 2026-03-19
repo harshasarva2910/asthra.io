@@ -211,11 +211,11 @@ body::before {
 .hero-content {
     text-align: center;
     position: relative;
-    z-index: 10;
+    z-index: 8;
 }
 
 .hero-kit-branding {
-    margin-top: 1rem; /* Added margin to push it down further */
+    margin-top: 0.5rem; /* Added margin to push it down further */
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
