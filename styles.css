@@ -947,7 +947,7 @@ body::before {
     }
 
     .hero {
-        padding-top: 60px;
+        padding-top: 40px;
     }
 
     .hero-kit-logo {
@@ -955,7 +955,7 @@ body::before {
         width: 90%;
         max-width: 250px;
         transform: none;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.3rem;
     }
 
     .hero-college-name {
