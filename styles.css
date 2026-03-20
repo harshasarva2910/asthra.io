@@ -421,6 +421,10 @@ body::before {
     grid-template-columns: repeat(4, 1fr);
 }
 
+.row-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
 .neon-card {
     background: var(--bg-card);
     border: 1px solid var(--glass-border);
@@ -826,7 +830,7 @@ body::before {
         max-width: 400px;
     }
 
-    .row-4 {
+    .row-4, .row-5 {
         grid-template-columns: repeat(2, 1fr);
         /* Hero adjustments for tablets */
         .hero {
@@ -912,7 +916,7 @@ body::before {
         justify-content: center;
     }
 
-    .row-4 {
+    .row-4, .row-5 {
         grid-template-columns: 1fr;
         max-width: 400px;
         margin: 2rem auto 0;
