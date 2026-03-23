@@ -974,7 +974,7 @@ body::before {
     }
 
     .section-padding {
-        padding: 3rem 0;
+        padding: 1.5rem 0;
     }
 
     .section-header {
@@ -986,7 +986,7 @@ body::before {
     }
 
     .hero {
-        padding-top: 40px;
+        padding-top: 20px;
     }
 
     .hero-kit-logo {
