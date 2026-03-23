@@ -252,7 +252,18 @@ body::before {
     text-transform: uppercase;
     position: relative;
     color: var(--text-main);
-    text-shadow: 0 0 20px rgba(11, 181, 255, 0.5);
+    text-shadow: 
+        1px 1px 0 var(--primary-deep-blue),
+        2px 2px 0 var(--primary-deep-blue),
+        3px 3px 0 var(--primary-deep-blue),
+        4px 4px 0 var(--primary-deep-blue),
+        5px 5px 0 var(--primary-deep-blue),
+        6px 6px 0 var(--primary-neon-blue),
+        7px 7px 0 var(--primary-neon-blue),
+        8px 8px 15px rgba(0, 0, 0, 0.8),
+        0 0 20px rgba(11, 181, 255, 0.4);
+    transform: perspective(500px) rotateX(10deg);
+    display: inline-block;
 }
 
 .subtitle {
