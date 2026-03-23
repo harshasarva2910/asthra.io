@@ -1,12 +1,12 @@
 :root {
-    --bg-dark: #0a0514;
-    --bg-card: rgba(25, 15, 45, 0.6);
+    --bg-dark: #020617;
+    --bg-card: rgba(15, 23, 42, 0.6);
     --primary-cyan: #00f5d4;
     --primary-deep-blue: #0055ff;
     --primary-blue: #00bbf9;
     --primary-neon-blue: #0bb5ff;
     --text-main: #ffffff;
-    --text-muted: #a9a2b8;
+    --text-muted: #94a3b8;
     --glass-border: rgba(0, 85, 255, 0.15);
     --font-heading: 'Rajdhani', sans-serif;
     --font-body: 'Inter', sans-serif;
@@ -716,7 +716,7 @@ body::before {
 
 /* Footer */
 .footer {
-    background: #12122b;
+    background: #0f172a;
     padding: 4rem 0 2rem;
     text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
