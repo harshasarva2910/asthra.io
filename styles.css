@@ -414,7 +414,10 @@ body::before {
 }
 
 .about-desc {
+    font-family: 'Outfit', sans-serif;
     font-size: 1.25rem;
+    word-spacing: 0.15rem;
+    line-height: 1.6;
     color: var(--text-muted);
     max-width: 800px;
     margin: 0 auto;
