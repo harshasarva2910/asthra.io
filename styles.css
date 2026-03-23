@@ -266,6 +266,27 @@ body::before {
     display: inline-block;
 }
 
+.animate-letter {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateY(-40px) scale(1.2);
+    animation: arrangeLetter 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+@keyframes arrangeLetter {
+    0% {
+        opacity: 0;
+        filter: blur(10px);
+        transform: translateY(-40px) scale(1.2);
+    }
+    100% {
+        opacity: 1;
+        filter: blur(0px);
+        transform: translateY(0) scale(1);
+    }
+}
+
 .subtitle {
     font-family: var(--font-heading);
     font-size: 1.8rem;

@@ -130,4 +130,20 @@ document.addEventListener('DOMContentLoaded', () => {
             window.location.href = `event.html?name=${encodeURIComponent(title)}&tab=${tabId}`;
         });
     });
+
+    // Text Entrance Animation for ASTHRA 2K26
+    const glitchText = document.querySelector('.glitch-text');
+    if (glitchText) {
+        const text = glitchText.getAttribute('data-text') || glitchText.innerText;
+        glitchText.innerHTML = '';
+        
+        for (let i = 0; i < text.length; i++) {
+            const span = document.createElement('span');
+            span.innerText = text[i] === ' ' ? '\u00A0' : text[i];
+            // Stagger each letter by 80ms
+            span.style.animationDelay = `${i * 0.08}s`;
+            span.classList.add('animate-letter');
+            glitchText.appendChild(span);
+        }
+    }
 });
