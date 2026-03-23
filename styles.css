@@ -183,15 +183,40 @@ body::before {
 
 /* Hero Section */
 .hero {
-    min-height: 120vh;
-    height: auto;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    color: var(--text-main);
+    padding-top: 80px;
     position: relative;
     overflow: hidden;
-    padding-top: 100px; /* Reduced to bring logo higher */
-    padding-bottom: 50px;
+}
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+    transform: scale(1.05);
+    /* Avoid tiny white borders */
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,
+            rgba(2, 6, 23, 0.8) 0%,
+            rgba(2, 6, 23, 0.4) 50%,
+            rgba(2, 6, 23, 0.9) 100%);
+    z-index: -1;
 }
 
 .circuit-grid {
